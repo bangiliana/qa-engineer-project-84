@@ -165,10 +165,9 @@
      
 -summary: |
     Проверка отображения столбца с количеством каждого товара в окне оформления заказа
-  environment: |
-   Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
-    ОС Windows 10
-  steps-to-reproduce: |
+  prerequisites:
+    Открыта страница https://hexlet-products-store.vercel.app
+  steps: |
     -Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     -Добавить в корзину несколько разных товаров, например: Essence mascara lash princess, Powder canister
     - Перейти в корзину
@@ -176,6 +175,17 @@
     -В консоли DEvTools во вкладке Elements посмотреть параметры ищображения,(но я не могу додуматься что именно)|
   expected-result: |
     В окне оформления заказа ровно отображается количество товаров, в один стобец
+
+-summary: |
+    Проверка корректного отображения категорий товаров
+  prerequisites:
+    Открыта страница https://hexlet-products-store.vercel.app
+     steps: |
+    -Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    -Прокрутить ниже до последней строчки в стобце Brands
+    -В консоли DEvTools во вкладке Elements посмотреть параметры(возможноо??)|
+  expected-result: |
+    В столбце Brands отображаются все категории корректно
   
     
 
