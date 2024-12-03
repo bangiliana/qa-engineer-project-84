@@ -151,7 +151,7 @@
 
      
 - summary: |
-    Невозможно сделать заказ в корзине не работает кнопка Chekout
+    Проверка возможности сделать заказ в корзине по кнопке Chekout
   prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app
   steps:|
@@ -162,9 +162,21 @@
   expected-result: |
     Надпись Заказ успешно оформлен. Ответ 200 в Консоли DevTools
   
-
      
-
+-summary: |
+    Проверка отображения столбца с количеством каждого товара в окне оформления заказа
+  environment: |
+   Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    -Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    -Добавить в корзину несколько разных товаров, например: Essence mascara lash princess, Powder canister
+    - Перейти в корзину
+    - Нажать Checkout
+    -В консоли DEvTools во вкладке Elements посмотреть параметры ищображения,(но я не могу додуматься что именно)|
+  expected-result: |
+    В окне оформления заказа ровно отображается количество товаров, в один стобец
+  
     
 
 
