@@ -28,3 +28,20 @@ actual-result: |
 
 
 
+- summary: |
+    Невозможно сделать заказ в корзине не работает кнопка Chekout
+environment: |
+    Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    -Открыть сайт https://hexlet-products-store.vercel.app/
+    -Добавить любой товар в корзину
+    -Перейти в корзину
+    -Нажать Chekout
+  expected-result: |
+    Надпись Заказ успешно оформлен. Ответ 200 в Консоли DevTools
+  actual-result: |
+    Надпись Заказ успешно оформлен есть.
+    В консоли DevTools ответ 500 Failed.
+
+
