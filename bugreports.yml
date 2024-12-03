@@ -13,19 +13,32 @@
 
 - summary: |
     Сайт неккоректно отображается на мобильно устройстве Galaxy S9+ 
-environment: |
+ environment: |
    Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
     ОС Windows 10
  steps-to-reproduce: |
-    Открыта страница https://hexlet-products-store.vercel.app
-  steps:
+    - Открыта страница https://hexlet-products-store.vercel.app
     - Открыть DevTools  
     - Во вкладке "Dimensions" выбрать устройтсво Galaxy S9+ 
   expected-result: |
     Сайт корректно отображается в заданных масштабах
-actual-result: |
+ actual-result: |
     Снчала отображается боковое меню, справа отображается пустое пространство . Каталог сайта отображается ниже, после прокрутки страницы.
 
+
+- summary: |
+   Перевод страницы на русский язык
+ environment: |
+   Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
+    ОС Windows 10
+ steps-to-reproduce: |
+    Открыта страница https://hexlet-products-store.vercel.app/
+    - Нажать на кнопку "Language" на футере страницы
+    - Выбрать в списке русский язык и нажать на него
+  expected-result: |
+    Текстовая информация на сайте переведена на русский язык
+  actual-result: |
+     На русский язык переводится информация в футере и описание разделов сайта 
 
 
 - summary: |
