@@ -90,3 +90,15 @@ environment: |
     В окне оформления заказа неровно отображается столбец с количеством каждого товара
 
 
+-summary: |
+    environment: |
+   Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    -Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    -Прокрутить ниже до последней строчки в стобце Brands
+    -В консоли DEvTools во вкладке Elements посмотреть параметры(возможноо??)|
+  expected-result: |
+    В столбце Brands отображаются все категории корректно
+  actual-result: |
+    Категория grocery не отображается текстом, отображается только чекбокс. В консоли DevTools указано: Undefined-check|
