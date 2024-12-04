@@ -1,7 +1,7 @@
 ---
 - summary: |
     Изображения в карточках товара
-requirementes: |
+requirement: |
     Изображения товаров без искажений
 prerequisites: |
     Открыта страница каталога сайта :https://hexlet-products-store.vercel.app/
@@ -13,7 +13,7 @@ expected-result: |
 
 - summary: |
     Проверка добавления товара в корзину.
-requirementes: |
+requirement: |
     При нажатии на кнопку "Add to cart" выбранный товар попадает в корзину пользователя
 prerequisites: |
     Открыта страница каталога сайта :https://hexlet-products-store.vercel.app/
@@ -152,6 +152,8 @@ expected-result: |
      
 - summary: |
     Проверка возможности сделать заказ в корзине по кнопке Chekout
+requirement: |
+  По кнопке Chekout можно оформить заказ в корзине
 prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
 steps: |
@@ -165,6 +167,8 @@ expected-result: |
      
 - summary: |
     Проверка отображения столбца с количеством каждого товара в окне оформления заказа
+requirement: |
+  В окне оформления заказа количество каждого товара офрмлено в столбец один под одним
 prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
 steps: |
@@ -178,6 +182,8 @@ expected-result: |
 
 - summary: |
     Проверка корректного отображения категорий товаров
+requirement: |
+  В боковом меню все категории товаров отображаются корректно, текст и чекбокс
 prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
 steps: |
