@@ -2,116 +2,116 @@
 
 - summary: |
     Изображения в карточках товара без искажений
-environment: |
+  environment: |
    Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
     ОС Windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
     -Визуально оценить изображения
     -В консоли DEvTools во вкладке Elements посмотреть параметры ищображения,(но я не могу додуматься что именно)|
-expected-result: |
+  expected-result: |
     Изображения товаров на сайте без искажений
-actual-result: |
+  actual-result: |
     Изображения в карточках товара искажены, растянуты в ширину
 
 - summary: |
     Изображения в карточках товара в одном стиле, на белом фоне
-environment: |
+  environment: |
    Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
     ОС Windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
     - открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     -Визуально оценить изображения
-expected-result: |
+  expected-result: |
     Изображения товаров на сайте в одном стиле, на белом фоне
-actual-result: |
+  actual-result: |
     Изображения в карточках товара на белом фоне,прозрачном и с черными полями, в разных стилях
 
 
 - summary: |
     Короткое описание ошибки
-environment: |
+  environment: |
     Ссылка на билд/коммит/версия ПО и всего окружения
-steps-to-reproduce: |
+  steps-to-reproduce: |
     Полный перечень шагов для воспроизведения и описание, на каком шаге произошла ошибка
-expected-result: |
+  expected-result: |
     Какой результат должен быть без ошибки
-actual-result: |
+  actual-result: |
     Какой результат получился на самом деле
 
 
 - summary: |
     Сайт неккоректно отображается на мобильно устройстве Galaxy S9+ 
-environment: |
+  environment: |
    Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
     ОС Windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
     - Открыта страница https://hexlet-products-store.vercel.app
     - Открыть DevTools  
     - Во вкладке "Dimensions" выбрать устройтсво Galaxy S9+ 
-expected-result: |
+  expected-result: |
     Сайт корректно отображается в заданных масштабах
-actual-result: |
+  actual-result: |
     Снчала отображается боковое меню, справа отображается пустое пространство . Каталог сайта отображается ниже, после прокрутки страницы.
 
 
 - summary: |
    Перевод страницы на русский язык
-environment: |
+  environment: |
    Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
     ОС Windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
     Открыта страница https://hexlet-products-store.vercel.app/
     - Нажать на кнопку "Language" на футере страницы
     - Выбрать в списке русский язык и нажать на него
-expected-result: |
+  expected-result: |
     Текстовая информация на сайте переведена на русский язык
-actual-result: |
+  actual-result: |
      На русский язык переводится информация в футере и описание разделов сайта 
 
 
 - summary: |
     Невозможно сделать заказ в корзине не работает кнопка Chekout
-environment: |
+  environment: |
     Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
     ОС Windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
     -Открыть сайт https://hexlet-products-store.vercel.app/
     -Добавить любой товар в корзину
     -Перейти в корзину
     -Нажать Chekout
-expected-result: |
+  expected-result: |
     Надпись Заказ успешно оформлен. Ответ 200 в Консоли DevTools
-actual-result: |
+  actual-result: |
     Надпись Заказ успешно оформлен есть.
     В консоли DevTools ответ 500 Failed.
 
--summary: |
+- summary: |
     В окне Оформления заказа неровно отображается столбец с количеством каждого товара
-environment: |
+  environment: |
    Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
     ОС Windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
     -Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     -Добавить в корзину несколько разных товаров, например: Essence mascara lash princess, Powder canister
     - Перейти в корзину
     -нажать Checkout
     -В консоли DEvTools во вкладке Elements посмотреть параметры ищображения,(но я не могу додуматься что именно)|
-expected-result: |
+  expected-result: |
     В окне оформления заказа ровно отображается количество товаров, в один стобец
-actual-result: |
+  actual-result: |
     В окне оформления заказа неровно отображается столбец с количеством каждого товара
 
 
--summary: |
+- summary: |
    Проверка корректного отображения категорий товаров
-environment: |
+  environment: |
    Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
     ОС Windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
     -Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     -Прокрутить ниже до последней строчки в стобце Brands
     -В консоли DEvTools во вкладке Elements посмотреть параметры(возможноо??)|
-expected-result: |
+  expected-result: |
     В столбце Brands отображаются все категории корректно
-actual-result: |
+  actual-result: |
     Категория grocery не отображается текстом, отображается только чекбокс. В консоли DevTools указано: Undefined-check|
