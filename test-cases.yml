@@ -4,7 +4,7 @@
   requirement: |
     Изображения товаров без искажений
   prerequisites: |
-    Открыта страница каталога сайта :https://hexlet-products-store.vercel.app/
+    Открыта страница каталога сайта :https://hexlet-products-store.vercel.app/ |
   steps: |
     -Визуально оценить изображения
     -В консоли DEvTools во вкладке Elements посмотреть параметры ищображения,(но я не могу додуматься что именно)|
@@ -16,7 +16,7 @@
   requirement: |
     При нажатии на кнопку "Add to cart" выбранный товар попадает в корзину пользователя
   prerequisites: |
-    Открыта страница каталога сайта :https://hexlet-products-store.vercel.app/
+    Открыта страница каталога сайта :https://hexlet-products-store.vercel.app/ |
   steps: |
     - Выбрать товар "Powder container"
     - Нажать кнопку "Add to cart" в карточке товара
@@ -30,7 +30,7 @@
   requirement: |
     При выборе русского языка в графе "language" сайт полностью переводится на русский язык
   prerequisites: |
-    Открыта страница https://hexlet-products-store.vercel.app/
+    Открыта страница https://hexlet-products-store.vercel.app/ |
   steps: |
     - Нажать на кнопку "Language" на футере страницы
     - Выбрать в списке русский язык и нажать на него
@@ -43,9 +43,9 @@
   requirement: |
     В корзину можно добавить товар в количестве, указанном в карточке товара
   prerequisites: |
-    Открыта страница https://hexlet-products-store.vercel.app
+    Открыта страница https://hexlet-products-store.vercel.app/ | 
   steps: |
-    - Выбрать товар "Essence Mascara Lash Princess"
+    - Выбрать товар "Essence Mascara Lash Princess" |
     - Нажать на кнопку "Add to cart" больше на 1 числа остатка товара
   expected-result: |
     В корзину добавилось количество товара, указанное в карточке товара
@@ -54,10 +54,10 @@
      Проверка корректного отображения сайта на мобильном устройстве   
   requirement: |
    Сайт адаптирован под рамзеры мобильного устройства
-    Открыта страница https://hexlet-products-store.vercel.app
+    Открыта страница https://hexlet-products-store.vercel.app/ |
   steps: |
     - Открыть DevTools  
-    - Во вкладке "Dimensions" выбрать устройтсво Galaxy S9+
+    - Во вкладке "Dimensions" выбрать устройтсво Galaxy S9+ |
   expected-result: |
     Сайт корректно отображается в заданных масштабах
 
@@ -67,7 +67,7 @@
   requirement: |
     В корзине корректно отображается содержимое
   prerequisites: |
-    Открыта страница https://hexlet-products-store.vercel.app
+    Открыта страница https://hexlet-products-store.vercel.app/  |
   steps: |
     - Нажимаем Add to cart в карточке товара Dior J`adore 
     - Нажимаем Add to cart в карточке товара Apple
@@ -82,7 +82,7 @@
   test-data: |
     Установлена последняя версия браузера Yandex на 30.11.24 версия 24.10.4.756
   steps: |
-    - В браузере Yandex ввести в адресную строку  https://hexlet-products-store.vercel.app  
+    - В браузере Yandex ввести в адресную строку  https://hexlet-products-store.vercel.app  |
   expected-result: |
     Сайт корректно отображается в последней версии браузера Yandex
 
@@ -94,7 +94,7 @@
   test-data: |
     Установлена последняя версия браузера Chrome на 30.11.24 версия 131.0.6778.86 
   steps: |
-    - В браузере Yandex ввести в адресную строку  https://hexlet-products-store.vercel.app  
+    - В браузере Yandex ввести в адресную строку  https://hexlet-products-store.vercel.app/ |  
   expected-result: |
     Сайт корректно отображается в последней версии браузера Chrome
 
@@ -104,7 +104,7 @@
   requirement: |
      На сайте есть возможность фильтровать товары по брендам 
   prerequisites: |
-    Открыта страница https://hexlet-products-store.vercel.app
+    Открыта страница https://hexlet-products-store.vercel.app/ |
   steps: |
     - В боковом меню выбрать категорию Gucci
   expected-result: |
@@ -116,7 +116,7 @@
   requirement: |
      На сайте есть возможность фильтровать товары по категориям
   prerequisites: |
-    Открыта страница https://hexlet-products-store.vercel.app
+    Открыта страница https://hexlet-products-store.vercel.app/ |
   steps: |
     - В боковом меню выбрать категорию нажать на Category
     - В выпадающем списке выбрать категорию groceries
@@ -129,7 +129,7 @@
   requirement: |
     В карточке товара есть возможность просматривать товары и просматривать подробную информацию о товаре 
   prerequisites: |
-    Открыта страница https://hexlet-products-store.vercel.app
+    Открыта страница https://hexlet-products-store.vercel.app/  |
   steps: |
     - В карточке товара под изображением указана информация с подробным описанием товара
   expected-result: |
@@ -141,7 +141,7 @@
   requirement: |
      На странице товара есть возможность просматривать товары и просматривать подробную информацию о товаре 
   prerequisites: |
-     Открыта страница https://hexlet-products-store.vercel.app
+     Открыта страница https://hexlet-products-store.vercel.app/ |
   steps: |
     - Выбрать товар в каталоге и нажать на карточку товара
     - На странице товара в поле Description указана подробная информация о товаре
@@ -154,9 +154,8 @@
   requirement: |
     По кнопке Chekout можно оформить заказ в корзине
   prerequisites: |
-    Открыта страница https://hexlet-products-store.vercel.app
+    Открыта страница https://hexlet-products-store.vercel.app/ |
   steps: |
-    -Открыть сайт https://hexlet-products-store.vercel.app/
     -Добавить любой товар в корзину
     -Перейти в корзину
     -Нажать Chekout
@@ -169,9 +168,8 @@
   requirement: |
     В окне оформления заказа количество каждого товара офрмлено в столбец один под одним
   prerequisites: |
-    Открыта страница https://hexlet-products-store.vercel.app
+    Открыта страница https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ |
   steps: |
-    -Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     -Добавить в корзину несколько разных товаров, например: Essence mascara lash princess, Powder canister
     - Перейти в корзину
     - Нажать Checkout
@@ -184,9 +182,8 @@
   requirement: |
     В боковом меню все категории товаров отображаются корректно, текст и чекбокс
   prerequisites: |
-    Открыта страница https://hexlet-products-store.vercel.app
+    Открыта страница https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ |
   steps: |
-    -Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     -Прокрутить ниже до последней строчки в стобце Brands
     -В консоли DEvTools во вкладке Elements посмотреть параметры(возможноо??)|
   expected-result: |
