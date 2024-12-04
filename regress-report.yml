@@ -16,41 +16,41 @@ test-cases:
        Перевод страницы на русский язык. При выборе русского языка в графе "language" сайт полностью переводится на русский язык
     status: fail
     
-   - summary: |
+  - summary: |
        Проверка добавления имеющегося количества товара на остатках в коризну. В корзину можно добавить товар в количестве, указанном в карточке товара.
-     status: pass
+    status: pass
     
-   - summary: |
+  - summary: |
        Проверка корректного отображения сайта на мобильном устройстве Galaxy S9+. Сайт адаптирован под рамзеры мобильного устройства Galaxy S9+.
-     status: fail
+    status: fail
     
-   - summary: |
+  - summary: |
         Проверка возможности просматривать содержимое корзины. В корзине корректно отображается содержимое
-     status: pass
+    status: pass
     
-   - summary: |
+  - summary: |
          Проверка корректного отображения сайта в последней версии браузера. Сайт корректно отображается в последней версии браузера Yandex
-     status: pass
+    status: pass
     
-   - summary: |
+  - summary: |
          Проверка корректного отображения сайта в последней версии браузера Сайт корректно отображается в последней версии браузера Chrome.
-     status: pass
+    status: pass
     
-   - summary: |
+  - summary: |
          Проверка Возможности фильтрации товаров  по брендам.
-     status: pass
+    status: pass
     
-   - summary: |
+  - summary: |
           В окне оформления заказа ровно отображается столбец с количеством каждого товара
-     status: pass
+    status: pass
     
-   - summary: |
+  - summary: |
           На сайте есть возможность фильтровать товары по категориям
-     status: pass
+    status: pass
     
-   - summary: |
+  - summary: |
          На странице корректно отображаются категории товаров 
-     status:  fail
+    status:  fail
 
 bugreports:
 
@@ -58,7 +58,7 @@ bugreports:
       В корзине неровно отображается столбец с количеством каждого товара
     environment: |
        Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
-      ОС Windows 10
+       ОС Windows 10
     steps-to-reproduce: |
       - Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       - Добавить в корзину несколько разных товаров, например: Essence mascara lash princess, Powder canister
@@ -76,8 +76,8 @@ bugreports:
        Yandex на 30.11.24 версия 24.10.4.756 (Официальная сборка) (64 бит)
        ОС Windows 10
      steps-to-reproduce: |
-     - Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-     - Нажать на карточку любого товара
+       - Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+       - Нажать на карточку любого товара
      expected-result: |
        Изображение в карточке товара нормального размера, удобное для восприятия
      actual-result: |
