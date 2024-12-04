@@ -1,137 +1,136 @@
 ---
 - summary: |
     Изображения в карточках товара
-requirement: |
+  requirement: |
     Изображения товаров без искажений
-prerequisites: |
+  prerequisites: |
     Открыта страница каталога сайта :https://hexlet-products-store.vercel.app/
-steps: |
+  steps: |
     -Визуально оценить изображения
     -В консоли DEvTools во вкладке Elements посмотреть параметры ищображения,(но я не могу додуматься что именно)|
-expected-result: |
+  expected-result: |
     Изображения товаров на сайте без искажений
 
 - summary: |
     Проверка добавления товара в корзину.
-requirement: |
+  requirement: |
     При нажатии на кнопку "Add to cart" выбранный товар попадает в корзину пользователя
-prerequisites: |
+  prerequisites: |
     Открыта страница каталога сайта :https://hexlet-products-store.vercel.app/
-steps: |
+  steps: |
     - Выбрать товар "Powder container"
     - Нажать кнопку "Add to cart" в карточке товара
     - Перейти в корзину нажатием кнопки "Cart" в футере сайта
-expected-result: |
+  expected-result: |
     Товар "Powder container" в корзине пользователя
 
 
 - summary: |
    Перевод страницы на русский язык
-requirement: |
+  requirement: |
     При выборе русского языка в графе "language" сайт полностью переводится на русский язык
-prerequisites: |
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app/
-steps: |
+  steps: |
     - Нажать на кнопку "Language" на футере страницы
     - Выбрать в списке русский язык и нажать на него
-expected-result: |
+  expected-result: |
     Текстовая информация на сайте переведена на русский язык
 
     
 - summary: |
      Проверка добавления имеющегося количества товара на остатках в коризну   
-requirement: |
+  requirement: |
     В корзину можно добавить товар в количестве, указанном в карточке товара
-prerequisites: |
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-steps: |
+  steps: |
     - Выбрать товар "Essence Mascara Lash Princess"
     - Нажать на кнопку "Add to cart" больше на 1 числа остатка товара
-expected-result: |
+  expected-result: |
     В корзину добавилось количество товара, указанное в карточке товара
 
 - summary: |
      Проверка корректного отображения сайта на мобильном устройстве   
-requirement: |
+  requirement: |
    Сайт адаптирован под рамзеры мобильного устройства
     Открыта страница https://hexlet-products-store.vercel.app
-steps: |
+  steps: |
     - Открыть DevTools  
     - Во вкладке "Dimensions" выбрать устройтсво Galaxy S9+
-expected-result: |
+  expected-result: |
     Сайт корректно отображается в заданных масштабах
 
 
 - summary: |
     Проверка возможности просматривать содержимое корзины
-requirement: |
+  requirement: |
     В корзине корректно отображается содержимое
-prerequisites: |
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-steps: |
+  steps: |
     - Нажимаем Add to cart в карточке товара Dior J`adore 
     - Нажимаем Add to cart в карточке товара Apple
     - Нажать Store в футере сайта
-expected-result: |
+  expected-result: |
     В корзине отображаются добавленные товары J`adore и Apple
-
 
 - summary: |
      Проверка корректного отображения сайта в последней версии браузера   
-requirement: |
+  requirement: |
    Сайт корректно отображается в последней версии браузера Yandex
-test-data: |
+  test-data: |
     Установлена последняя версия браузера Yandex на 30.11.24 версия 24.10.4.756
-steps: |
+  steps: |
     - В браузере Yandex ввести в адресную строку  https://hexlet-products-store.vercel.app  
-expected-result: |
+  expected-result: |
     Сайт корректно отображается в последней версии браузера Yandex
 
 
 - summary: |
      Проверка корректного отображения сайта в последней версии браузера   
-requirement: |
+  requirement: |
    Сайт корректно отображается в последней версии браузера Chrome
-test-data: |
+  test-data: |
     Установлена последняя версия браузера Chrome на 30.11.24 версия 131.0.6778.86 
-steps: |
+  steps: |
     - В браузере Yandex ввести в адресную строку  https://hexlet-products-store.vercel.app  
-expected-result: |
+  expected-result: |
     Сайт корректно отображается в последней версии браузера Chrome
 
 
 - summary: |
      Проверка Возможности фильтрации товаров  по брендам  
-requirement: |
+  requirement: |
   На сайте есть возможность фильтровать товары по брендам 
-prerequisites: |
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-steps: |
+  steps: |
     - В боковом меню выбрать категорию Gucci
-expected-result: |
+  expected-result: |
     В каталоге отображаются товары бренда Gucci
 
 
 - summary: |
      Проверка Возможности фильтрации товаров по категориям  
-requirement: |
+  requirement: |
   На сайте есть возможность фильтровать товары по категориям
-prerequisites: |
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-steps: |
+  steps: |
     - В боковом меню выбрать категорию нажать на Category
     - В выпадающем списке выбрать категорию groceries
-expected-result: |
+  expected-result: |
     В каталоге отображаются товары категории goceries
 
 
 - summary: |
      Проверка Возможности просматривать товары и просматривать подробную информацию о товаре  
-requirement: |
+  requirement: |
   В карточке товара есть возможность просматривать товары и просматривать подробную информацию о товаре 
-prerequisites: |
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-steps: |
+  steps: |
     - В карточке товара под изображением указана информация с подробным описанием товара
 expected-result: |
      В карточке товара под изображением указана информация с подробным описанием товара
@@ -139,58 +138,58 @@ expected-result: |
 
 - summary: |
      Проверка Возможности просматривать товары и просматривать подробную информацию о товаре  
-requirement: |
+  requirement: |
   На странице товара есть возможность просматривать товары и просматривать подробную информацию о товаре 
-prerequisites: |
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-steps: |
+  steps: |
     - Выбрать товар в каталоге и нажать на карточку товара
     - НА странице товара в поле Description указана подробная информация о товаре
-expected-result: |
+  expected-result: |
      В поле Descriptioт указана подробная информация о товаре
 
      
 - summary: |
     Проверка возможности сделать заказ в корзине по кнопке Chekout
-requirement: |
-  По кнопке Chekout можно оформить заказ в корзине
-prerequisites: |
+  requirement: |
+    По кнопке Chekout можно оформить заказ в корзине
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-steps: |
+  steps: |
     -Открыть сайт https://hexlet-products-store.vercel.app/
     -Добавить любой товар в корзину
     -Перейти в корзину
     -Нажать Chekout
-expected-result: |
+  expected-result: |
     Надпись Заказ успешно оформлен. Ответ 200 в Консоли DevTools
   
      
 - summary: |
     Проверка отображения столбца с количеством каждого товара в окне оформления заказа
-requirement: |
-  В окне оформления заказа количество каждого товара офрмлено в столбец один под одним
-prerequisites: |
+  requirement: |
+    В окне оформления заказа количество каждого товара офрмлено в столбец один под одним
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-steps: |
+  steps: |
     -Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     -Добавить в корзину несколько разных товаров, например: Essence mascara lash princess, Powder canister
     - Перейти в корзину
     - Нажать Checkout
     -В консоли DEvTools во вкладке Elements посмотреть параметры ищображения,(но я не могу додуматься что именно)|
-expected-result: |
+  expected-result: |
     В окне оформления заказа ровно отображается количество товаров, в один стобец
 
 - summary: |
     Проверка корректного отображения категорий товаров
-requirement: |
-  В боковом меню все категории товаров отображаются корректно, текст и чекбокс
-prerequisites: |
+  requirement: |
+       В боковом меню все категории товаров отображаются корректно, текст и чекбокс
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-steps: |
+  steps: |
     -Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     -Прокрутить ниже до последней строчки в стобце Brands
     -В консоли DEvTools во вкладке Elements посмотреть параметры(возможноо??)|
-expected-result: |
+  expected-result: |
     В столбце Brands отображаются все категории корректно
   
     
