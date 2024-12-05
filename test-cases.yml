@@ -92,7 +92,7 @@
   test-data: |
     тестовые данные
     отсуствуют
-  steps: |
+  steps: 
     -  Открыть DevTools  
     -  Во вкладке "Dimensions" выбрать устройтсво Galaxy S9+ 
   expected-result: |
