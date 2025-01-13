@@ -67,6 +67,10 @@
     Удаление товаров из корзины по кнопке Clear cart
    status: pass
 
+- summary: |
+    Проверка перехода в каталог из корзины по кнопке Continue shopping 
+    status: pass  
+
 
   
 
