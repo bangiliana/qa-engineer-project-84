@@ -2,47 +2,47 @@
 test-cases: 
 - summary: |
       Изображения в карточках товара отображаются
-    status: pass
+  status: pass
     
 - summary: |
        Проверка добавления товара в корзину. При нажатии на кнопку "Add to cart" выбранный товар попадает в корзину пользователя
-    status: pass
+  status: pass
 
 - summary: |
    После оформления заказа, товары удаляются из корзины.
-    status: fail
+  status: fail
     
 - summary: |
        Локализация на русский язык. При выборе русского языка в графе "language" сайт полностью переводится на русский язык
-    status: fail
+  status: fail
     
 - summary: |
        Добавление в корзину больше товара, чем есть в наличии
-    status: pass
+  status: pass
     
 - summary: |
        Проверка мобильной версии сайта
-    status: fail
+  status: fail
 
 - summary: |
          Проверка кроссбраузерности на браузерах Yandex, Google chrome
-    status: pass
+  status: pass
       
 - summary: |
          проверка фильтрации по бренду
-    status: pass
+  status: pass
 
 - summary: |
           проверка фильтрации по категории
-    status: pass
+  status: pass
  
 - summary: |
           В окне оформления заказа ровно отображается столбец с количеством каждого товара
-    status: pass
+  status: pass
    
 - summary: |
      Проверка ввода отрицательной цены. В поле ввода цены, можно ввести отрицательное значение 
-    status: fail
+  status: fail
 
 - summary: |
      Закрытие страницы заказа по крестику в верхнем парвом углу. 
