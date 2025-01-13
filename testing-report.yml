@@ -65,15 +65,15 @@
 
 - summary: |
     Удаление товаров из корзины по кнопке Clear cart
-   status: pass
+  status: pass
 
 - summary: |
     Проверка перехода в каталог из корзины по кнопке Continue shopping 
-    status: pass  
+  status: pass  
 
 - summary: |
     Проверка расчета стоимости в корзине. При изменении количества товаров в корзине, изменяется цена
-    status: pass
+  status: pass
 
 
   
