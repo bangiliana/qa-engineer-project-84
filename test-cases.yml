@@ -164,7 +164,7 @@
   expected-result: |
     Корзина пустая
 
-    - summary: |
+- summary: |
     Удаление товаров из корзины по кнопке Clear cart
   requirement: |
     При нажатии на кнопку Clear cart товары удаляются/исчезают из корзины 
